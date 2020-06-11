@@ -39,3 +39,4 @@ COPY vnc.sh /opt/
 RUN echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
 
 CMD ["/opt/vnc.sh"]
+
